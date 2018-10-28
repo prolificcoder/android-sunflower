@@ -19,7 +19,7 @@ buildscript {
     ext {
         // Sdk and tools
         compileSdkVersion = 28
-        minSdkVersion = 19
+        minSdkVersion = 25
         targetSdkVersion = 28
 
         // App dependencies
@@ -46,6 +46,8 @@ buildscript {
         google()
         jcenter()
         maven { url 'http://dl.bintray.com/kotlin/kotlin-eap' }
+
+        maven { url 'https://dl.bintray.com/epam/reportportal' }
     }
 
     dependencies {
