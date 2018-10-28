@@ -38,7 +38,8 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-@RunWith(com.epam.reportportal.junit.CustomJUnitRunner::class)
+//@RunWith(com.epam.reportportal.junit.CustomJUnitRunner::class)
+@RunWith(AndroidJUnit4::class)
 class PlantDetailFragmentTest {
 
     @Rule
