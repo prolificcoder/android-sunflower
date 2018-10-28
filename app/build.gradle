@@ -50,6 +50,9 @@ android {
         exclude 'META-INF/spring.handlers'
         exclude 'META-INF/spring.schemas'
         exclude 'logback.xml'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
     }
 }
 
